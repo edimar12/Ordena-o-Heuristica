@@ -169,7 +169,7 @@ int main(){
     	for(i = 0; i < size; i++) vector[i] = malloc(sizeof(char)*buffsize);
     	vector[0] = buffer;
     	for(i = 1; i < size; i++) scanf("%s", vector[i]);
-	printf("RADIX");
+	//printf("RADIX");
 	radixSort(size , vector);
     	for(i = 0; i < size; i++) printf("%s\n",vector[i]);	
     }
