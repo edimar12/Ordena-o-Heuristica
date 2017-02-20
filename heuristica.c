@@ -182,7 +182,7 @@ int main(){
 		long int min;
 		max = get_max(vector, size);	
 		min = get_min(vector, size);
-		if(max - min > size*2){
+		if(max - min > size*10){
 			//printf(" QUICK \n");
 			quick(vector, 0 , size -1);
 		}else{
